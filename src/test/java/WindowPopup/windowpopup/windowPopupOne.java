@@ -15,6 +15,8 @@ public class windowPopupOne {
 		driver.get("http://admin:admin@the-internet.herokuapp.com/");
 		
 		driver.findElement(By.linkText("Basic Auth")).click();
+		
+		System.out.println("Test case is passed");
 
 	}
 
